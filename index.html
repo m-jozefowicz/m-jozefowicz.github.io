@@ -1,1 +1,101 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My personal page - Michał Józefowicz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/kissui.scrollanim/0.3.0/scrollanim.min.css" />
+  <link href="./fonts/css/fontello.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <header id="header">
+    <nav>
+      <ul>
+        <li><a href="#welcome">Strona główna</a></li>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#skills">Umiejętności</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="welcome">
+    <div class="welcome__title">
+      <h1>Hello World!</h1>
+      <h2>~Michał Józefowicz</h2>
+      <p> &nbsp;Junior Front-End Developer</p>
+    </div>
+  </main>
+
+  <section id="about">
+
+    <img src="img/my-photo.png" alt="it's me!" class="about__img" />
+    <article class="about__me" >
+      <h2 data-kui-anim="lightSpeedIn">Tak zwane o mnie</h2>
+      <p class="about__me-p" data-kui-anim="lightSpeedIn">
+        Cześć :) Nazywam się Michał Józefowicz i jestem absolwentem kursu programowania Coders Lab w specjalizacji Front-End - edycja wrocławska marzec-maj 2017. Wcześniej, przed kursem, interesowałem się programowaniem webowym na własną rękę (tutoriale i poradniki
+        dostępne w sieci), co przerodziło się do udziału w wyżej wymienionym bootcampie programistycznym.
+        <p class="about__me-p" data-kui-anim="lightSpeedIn">Udział w kursie, dał mi dosyć sporą dawkę wiedzy oraz pomógł ukierunkować się w dalszym rozwoju w tej branży.</p>
+      </p>
+      <p class="about__me-p" data-kui-anim="lightSpeedIn">
+        W wybranym przeze mnie kierunku, przede wszystkim poszukuję miejsca do rozwoju i zbierania pierwszych zawodowych doświadczeń jako Junior Front-End Developer :)
+      </p>
+    </article>
+  </section>
+
+  <section id="skills">
+      <h2 data-kui-anim="lightSpeedIn">Skills</h2>
+      <div>
+        <h3 data-kui-anim="lightSpeedIn"> Technologie i narzędzia z których korzystam </h3>
+        <img src="./img/html-css-js.png" width="500px" alt="HTML-CSS-JS"  data-kui-anim="lightSpeedIn"/>
+        <img src="./img/tech.png" width="500px" alt="React-SASS-PS-GIT-WEBPACK-JQUERY"  data-kui-anim="lightSpeedIn"/>
+      </div>
+  </section>  
+
+  <aside id="contact">
+    <h2 data-kui-anim="lightSpeedIn">Kontakt ze mną</h2>
+    <div class="contact__links">
+      <ul class="contact__links-list" >
+        <li data-kui-anim="lightSpeedIn">
+          <a href="https://linkedin.com/in/michal-jozefowicz/">
+            <i class="icon-linkedin-squared"></i>LinkedIn
+          </a>
+        </li>
+        <li data-kui-anim="lightSpeedIn">
+          <a href="https://github.com/m-jozefowicz">
+            <i class="icon-github-circled"></i>GitHub
+          </a>
+        </li>
+        <li data-kui-anim="lightSpeedIn">
+          <a href=""><i class="icon-mobile"></i>Telefon: 722 160 661</a>
+        </li>
+        <li data-kui-anim="lightSpeedIn">
+          <a href="mailto:mjozefowicz.wso@gmail.com">
+            <i class="icon-gmail"></i>Gmail: mjozefowicz.wso@gmail.com
+          </a>
+        </li>
+        <li data-kui-anim="lightSpeedIn">
+          <a href="./pdf/my-cv.pdf">
+            <i class="icon-article-alt"></i>Moje CV
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <footer id="footer">
+    <p>Copyright&copy 2017 Michał Józefowicz </p>
+  </footer>
+
+  <!-- Output javascript file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/kissui.scrollanim/0.3.0/scrollanim.js"></script>
+  <script src="js/out.js"></script>
+</body>
+
+</html>
