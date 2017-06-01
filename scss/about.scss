@@ -1,0 +1,44 @@
+@import "colors&functions.scss";
+
+#about {
+  @extend .site__width-height;
+  background-color: $about-bg-color;
+  display: flex;
+  justify-content: space-between;
+
+  .about__img {
+    margin: 10% 0 0 10%;
+    height: 50%;
+    border-radius: 30%;
+  }
+
+  .about__me {
+    margin: 5% 0 0 8%;
+    color: #ffffff;
+
+     h2 {
+      font-size: 3rem;
+      margin: 8% 2rem 2rem 2rem;
+      font-weight: normal;
+      &:after {
+        content: "";
+        display: block;
+        width: 10em;
+        height: 5px;
+        margin-top: 5px;
+        background-color: $underline-bg-color;
+      }
+    }
+
+    .about__me-p {
+      margin-right: 15%;
+      line-height: 2.5rem;
+      font-size: 1.4rem;
+      text-align: justify;
+      &:last-child {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+}

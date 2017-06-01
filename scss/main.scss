@@ -1,0 +1,13 @@
+@import "header.scss";
+@import "welcome.scss";
+@import "about.scss";
+@import "skills.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "mediaQueries.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}

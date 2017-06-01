@@ -1,0 +1,15 @@
+@import "colors&functions.scss";
+
+#footer {
+  display: flex;
+  align-items: center;
+  width: 98.9vw;
+  height: 2rem;
+  background-color: $header-bg-color;
+  color: white;
+  p {
+    letter-spacing: 5px;
+    word-spacing: 5PX;
+  }
+
+}

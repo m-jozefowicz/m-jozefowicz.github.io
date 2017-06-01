@@ -1,0 +1,27 @@
+@import "colors&functions.scss";
+
+#welcome {
+  @extend .site__width-height;
+  background-image: url("./img/coding.jpeg");
+  background-color: $main-bg-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  .welcome__title {
+    margin: 30% 0 0 5%;
+
+    h1 {
+      font-size: 3rem;
+      padding: 10px;
+      opacity: 0.8;
+    }
+
+    h2, p {
+      margin-left: 9%;
+      opacity: 0.8;
+    }
+  }
+
+}
