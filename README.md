@@ -1,5 +1,5 @@
 <h1> My personal website <h1>
-<h2>Hello :) This website is about me :)</h2>
+<h2>Hello :)</h2>
 
 <h3>Used technologies</h3>
 
